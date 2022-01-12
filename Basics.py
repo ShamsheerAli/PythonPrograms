@@ -26,7 +26,7 @@ total_bill=bill+add_tip
 per_person=total_bill/people
 
 print(f"Each person should pay{round(per_person,2)}")'''
-print("Welcome to True Love Calculator")
+'''print("Welcome to True Love Calculator")
 name1=input("Enter ur Name: ")
 name2=input("Enter Their Name: ")
 lower_name1=name1.lower()
@@ -43,4 +43,6 @@ o=com_str.count("o")
 v=com_str.count("v")
 e=com_str.count("e")
 love=l+o+v+e
-print(str(true)+str(love))
+print(str(true)+str(love))'''
+list=["ssa","Shaik","Shamsheer","Ali"]
+print(list)
