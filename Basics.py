@@ -44,5 +44,18 @@ v=com_str.count("v")
 e=com_str.count("e")
 love=l+o+v+e
 print(str(true)+str(love))'''
-list=["ssa","Shaik","Shamsheer","Ali"]
-print(list)
+list=[111,222,333,444,1555,666,777]
+num=0
+sum=0
+for i in list:
+    # sum+=list(i)
+     sum+=i
+     num=num+1
+avg=sum/num     
+print(avg)
+high=0
+for i in list:
+    if i>high:
+        high=i
+      
+print(high)
