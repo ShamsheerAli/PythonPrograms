@@ -21,3 +21,4 @@ while not bidding_finished:
      bidding_finished=True
     elif extra=="y":
       clear()
+highest(bids)      
