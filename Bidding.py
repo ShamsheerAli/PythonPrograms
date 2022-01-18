@@ -1,6 +1,4 @@
 from turtle import clear
-
-
 bids={}
 def highest(record):
     high=0
