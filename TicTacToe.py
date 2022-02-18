@@ -55,7 +55,7 @@ while game==running:
         mark='x'
     else:
         print("player2's chance")
-        mark='0'
+        mark='O'
     choice=int(input("enter the position b/w [1-9] where u want to mark:"))
     if checkposition(choice):
                board[choice]=mark
